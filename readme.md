@@ -30,3 +30,14 @@ I'm not sure the requirement matches the example here - the example looks like a
 ```
 
 I'm going to assume the example is the way the function is intended to work but wanted to make sure my assumption was known.
+
+## Instructions
+
+- Have git and Node installed
+- Clone this repo
+- Navigate to folder in terminal
+- Run command `npm install`
+- Use npm scripts:
+  - `npm dev` - compiles typescript to js and watches src folder to rebuild and run
+  - `npm test` - run unit tests to see output
+  - `npm run` - run the build folder once
