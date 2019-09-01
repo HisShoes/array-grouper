@@ -55,6 +55,6 @@ The function was written in a functional style and wrapped in an object to make 
 ```
 const p = new ArrayGrouper();
 
-const output = p.groupArrayElements([1, 2, 3, 4, 5, 3);
+const output = p.groupArrayElements([1, 2, 3, 4, 5], 3);
 
 ```
