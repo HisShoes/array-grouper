@@ -1,0 +1,26 @@
+{
+  "name": "array-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:build": "tsc -w",
+    "dev:run": "nodemon build/index.js",
+    "dev": "concurrently npm:dev:*",
+    "test": "mocha --reporter spec 'build/**/*.spec.js'",
+    "start": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "concurrently": "^4.1.2",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.6.2"
+  }
+}
